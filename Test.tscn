@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://ui_test.gd" type="Script" id=1]
+
+[node name="Control" type="ColorRect"]
+anchor_left = 0.1
+anchor_top = 0.1
+anchor_right = 0.9
+anchor_bottom = 0.9
+color = Color( 0.427451, 0.0980392, 0.0980392, 1 )
+script = ExtResource( 1 )

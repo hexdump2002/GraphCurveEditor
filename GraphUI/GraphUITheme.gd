@@ -1,0 +1,18 @@
+class_name GraphUITheme
+
+const VERTEX_HANDLE_NORMAL_SIZE: float = 10.0;
+const VERTEX_HANDLE_NORMAL_COLOR: Color = Color.yellow;
+const VERTEX_NORMAL_SIZE: float = 5.0;
+const VERTEX_NORMAL_COLOR: Color = Color.gray;
+const MOUSE_OVER_VERTEX_HANDLE_SIZE:float = 15.0;
+const MOUSE_OVER_VERTEX_HANDLE_COLOR:Color = Color.aqua;
+const MOUSE_PRESSED_VERTEX_HANDLE_SIZE: float = 15.0;
+const MOUSE_PRESSED_VERTEX_HANDLE_COLOR:Color = Color.red;
+
+
+const SEGMENT_HANDLE_NORMAL_SIZE: float =20.0;
+const SEGMENT_HANDLE_NORMAL_COLOR: Color = Color.red;
+const MOUSE_OVER_SEGMENT_HANDLE_SIZE:float = 15.0;
+const MOUSE_OVER_SEGMENT_HANDLE_COLOR:Color = Color.aqua;
+const MOUSE_PRESSED_SEGMENT_HANDLE_SIZE: float = 8.0;
+const MOUSE_PRESSED_SEGMENT_HANDLE_COLOR:Color = Color.red;

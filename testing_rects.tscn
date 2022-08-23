@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Test-temp3.gd" type="Script" id=1]
+
+[node name="Node2D" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Control" type="ColorRect" parent="."]
+margin_left = 305.0
+margin_top = 136.0
+margin_right = 505.0
+margin_bottom = 236.0
+color = Color( 0.0705882, 0.435294, 0.72549, 1 )
+script = ExtResource( 1 )

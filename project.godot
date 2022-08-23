@@ -1,0 +1,77 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "ColorRect",
+"class": "GraphSegment",
+"language": "GDScript",
+"path": "res://GraphUI/GraphSegment.gd"
+}, {
+"base": "Reference",
+"class": "GraphSegmentHandle",
+"language": "GDScript",
+"path": "res://GraphUI/GraphSegmentHandle.gd"
+}, {
+"base": "Reference",
+"class": "GraphUITheme",
+"language": "GDScript",
+"path": "res://GraphUI/GraphUITheme.gd"
+}, {
+"base": "ColorRect",
+"class": "GraphVertex",
+"language": "GDScript",
+"path": "res://GraphUI/GraphVertex.gd"
+}, {
+"base": "Reference",
+"class": "GraphVertexHandle",
+"language": "GDScript",
+"path": "res://GraphUI/GraphVertexHandle.gd"
+}, {
+"base": "Control",
+"class": "MyFuckingCurve",
+"language": "GDScript",
+"path": "res://ui_test.gd"
+} ]
+_global_script_class_icons={
+"GraphSegment": "",
+"GraphSegmentHandle": "",
+"GraphUITheme": "",
+"GraphVertex": "",
+"GraphVertexHandle": "",
+"MyFuckingCurve": ""
+}
+
+[application]
+
+config/name="UILearning"
+run/main_scene="res://testing_rects.tscn"
+config/icon="res://icon.png"
+
+[display]
+
+window/size/height=720
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
+[global]
+
+window=false
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
